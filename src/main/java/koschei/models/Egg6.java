@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Egg6 {
 
-    private Needle7 needle7;
+    private final Needle7 needle7;
 
     @Autowired
     public Egg6(Needle7 needle7){
